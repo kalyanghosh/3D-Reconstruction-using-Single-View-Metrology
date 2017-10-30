@@ -1,2 +1,30 @@
 # 3D-Reconstruction-using-Single-View-Metrology
-This repository contains code and the steps to follow for 3D Reconstruction using Single View Metro logy
+This repository contains code and the steps to follow for 3D Reconstruction using Single View Metrology
+
+Steps followed to complete the project:
+
+1. In the 1st step of the project, we took an image of a 3D box by following the 3 point
+perspective imaging methodology. 
+
+2. After that we used a simple annotation online tool (LABEL ME) to annotate the image.
+The annotated image is as given below.
+
+3. The input to the below code(SVM_Code.py) is taken from the input file (input.txt)
+which is show below and also attached in the zipped folder.
+
+4. We then wrote the code to calculate the vanishing points, the scaling factors to generate
+the homography matrices and to apply the homography matrices to transform the planes.
+The complete code(SVM_Code.py) is given below and also attached in the zipped
+folder.
+
+5. After getting the homography matrices from the above code,we apply the homography
+matrices to each of the planes of the image to generate the texture maps for each of the
+planes(XY,YZ,ZX). 
+
+6. After extracting and cropping the feature maps,we generate the 3D model of the image
+using VRML. The VRML code(3DModelling_Code.wrl) is as given below and also
+attached in the zipped folder.
+
+7. The .wrl file generated from the above image is opened in view3Dscene to get the 3D
+image as shown below.
+
