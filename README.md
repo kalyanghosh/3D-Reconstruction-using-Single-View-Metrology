@@ -23,13 +23,17 @@ folder.
 
 5. After getting the homography matrices from the above code,we apply the homography
 matrices to each of the planes of the image to generate the texture maps for each of the
-planes(XY,YZ,ZX). 
+planes(XY,YZ,ZX).
+<br></br>
 <b> PLANE XY: </b>
 ![XY](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/xy_sc.png)
+<br></br>
 <b> PLANE XY: </b>
 ![XZ](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/xz_sc.png)
+<br></br>
 <b> PLANE XY: </b>
 ![YZ](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/yz_sc.png)
+<br></br>
 6. After extracting and cropping the feature maps,we generate the 3D model of the image
 using VRML. The VRML code(3DModelling_Code.wrl) is as given below and also
 attached in the zipped folder.
