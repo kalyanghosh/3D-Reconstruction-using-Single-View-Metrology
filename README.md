@@ -9,9 +9,9 @@ Steps followed to complete the project:
 perspective imaging methodology. 
 
 ![BOX IMAGE](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/Box_Image.jpg)
+
 2. After that we used a simple annotation online tool (LABEL ME) to annotate the image.
-The annotated image is as given below.
-![ANNOTATED_IMAGE](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/box_annotated_image.fig)
+   You can use any annotation portal to annotate the image. I used the tool LABELME
 
 3. The input to the below code(SVM_Code.py) is taken from the input file (input.txt)
 which is show below and also attached in the zipped folder.
