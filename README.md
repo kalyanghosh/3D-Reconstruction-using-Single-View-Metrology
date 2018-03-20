@@ -1,4 +1,6 @@
-# 3D-Reconstruction-using-Single-View-Metrology
+<br> </br>
+<b>TITLE: 3D RECONSTRUCTION USING SINGLE VIEW METROLOGY</b>
+<br></br>
 This repository contains code and the steps to follow for 3D Reconstruction using Single View Metrology
 
 Steps followed to complete the project:
@@ -6,6 +8,7 @@ Steps followed to complete the project:
 1. In the 1st step of the project, we took an image of a 3D box by following the 3 point
 perspective imaging methodology. 
 
+![BOX IMAGE](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/Box_Image.jpg)
 2. After that we used a simple annotation online tool (LABEL ME) to annotate the image.
 The annotated image is as given below.
 
