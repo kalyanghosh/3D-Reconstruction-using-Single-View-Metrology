@@ -41,4 +41,7 @@ attached in the zipped folder.
 7. The .wrl file generated from the above image is opened in view3Dscene to get the 3D
 image as shown below.
 ![3D REPRESENTATION OF BOX](https://github.com/kalyanghosh/3D-Reconstruction-using-Single-View-Metrology/blob/master/3D%20model.png)
+<br></br>
+<b>REFERENCES</b>
+[PAPER WHICH MOTIVATED THE PROJECT](https://www.cs.cmu.edu/~ph/869/papers/Criminisi99.pdf)
 
